@@ -1,0 +1,303 @@
+<!DOCTYPE html><html lang="ko" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-bguv2lll"> <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>에듀플로는 어떤 플랫폼인가요? — 첫 만남 (1차시) | 에듀플로로 교육자료 만들기 — 선생님을 위한 4차시 연수</title><link rel="canonical" href="https://greatsong.github.io/eduflow-teacher-intro/chapter01/"/><link rel="sitemap" href="/eduflow-teacher-intro/sitemap-index.xml"/><script type="module" src="/eduflow-teacher-intro/mermaid-init.js"></script><script type="module" src="/eduflow-teacher-intro/toc-toggle.js"></script><link rel="shortcut icon" href="/eduflow-teacher-intro/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v5.18.1"/><meta name="generator" content="Starlight v0.34.8"/><meta property="og:title" content="에듀플로는 어떤 플랫폼인가요? — 첫 만남 (1차시)"/><meta property="og:type" content="article"/><meta property="og:url" content="https://greatsong.github.io/eduflow-teacher-intro/chapter01/"/><meta property="og:locale" content="ko"/><meta property="og:description"/><meta property="og:site_name" content="에듀플로로 교육자료 만들기 — 선생님을 위한 4차시 연수"/><meta name="twitter:card" content="summary_large_image"/><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/eduflow-teacher-intro/_astro/print.DNXP8c50.css" media="print"><link rel="stylesheet" href="/eduflow-teacher-intro/_astro/index.DeaLp4ws.css"><script type="module" src="/eduflow-teacher-intro/_astro/page.B1D-nYk3.js"></script></head> <body class="astro-bguv2lll"> <a href="#_top" class="astro-7q3lir66">콘텐츠로 이동</a>  <div class="page sl-flex astro-vrdttmbt"> <header class="header astro-vrdttmbt"><div class="header astro-kmkmnagf"> <div class="title-wrapper sl-flex astro-kmkmnagf"> <a href="/eduflow-teacher-intro/" class="site-title sl-flex astro-m46x6ez3">  <span class="astro-m46x6ez3" translate="no"> 에듀플로로 교육자료 만들기 — 선생님을 위한 4차시 연수 </span> </a>  </div> <div class="sl-flex print:hidden astro-kmkmnagf"> <site-search class="astro-kmkmnagf astro-v37mnknz" data-translations="{&#34;placeholder&#34;:&#34;검색&#34;}"> <button data-open-modal disabled aria-label="검색" aria-keyshortcuts="Control+K" class="astro-v37mnknz"> <svg aria-hidden="true" class="astro-v37mnknz astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg> <span class="sl-hidden md:sl-block astro-v37mnknz" aria-hidden="true">검색</span> <kbd class="sl-hidden md:sl-flex astro-v37mnknz" style="display: none;"> <kbd class="astro-v37mnknz">Ctrl</kbd><kbd class="astro-v37mnknz">K</kbd> </kbd> </button> <dialog style="padding:0" aria-label="검색" class="astro-v37mnknz"> <div class="dialog-frame sl-flex astro-v37mnknz">  <button data-close-modal class="sl-flex md:sl-hidden astro-v37mnknz"> 취소 </button> <div class="search-container astro-v37mnknz"> <div id="starlight__search" class="astro-v37mnknz"></div> </div> </div> </dialog> </site-search>  <script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script> <script type="module" src="/eduflow-teacher-intro/_astro/Search.astro_astro_type_script_index_0_lang.R5-4xHEY.js"></script>   </div> <div class="sl-hidden md:sl-flex print:hidden right-group astro-kmkmnagf"> <div class="sl-flex social-icons astro-kmkmnagf">  </div> <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">테마 선택</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg> <select value="auto" autocomplete="off" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">어두운 테마</option><option value="light" class="astro-4yphtoen">밝은 테마</option><option value="auto" selected class="astro-4yphtoen">자동</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label>  </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script> <script type="module">const r="starlight-theme",o=e=>e==="auto"||e==="dark"||e==="light"?e:"auto",c=()=>o(typeof localStorage<"u"&&localStorage.getItem(r));function n(e){typeof localStorage<"u"&&localStorage.setItem(r,e==="light"||e==="dark"?e:"")}const l=()=>matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";function t(e){StarlightThemeProvider.updatePickers(e),document.documentElement.dataset.theme=e==="auto"?l():e,n(e)}matchMedia("(prefers-color-scheme: light)").addEventListener("change",()=>{c()==="auto"&&t("auto")});class s extends HTMLElement{constructor(){super(),t(c()),this.querySelector("select")?.addEventListener("change",a=>{a.currentTarget instanceof HTMLSelectElement&&t(o(a.currentTarget.value))})}}customElements.define("starlight-theme-select",s);</script> <script type="module">class s extends HTMLElement{constructor(){super();const e=this.querySelector("select");e&&(e.addEventListener("change",t=>{t.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=t.currentTarget.value)}),window.addEventListener("pageshow",t=>{if(!t.persisted)return;const n=e.querySelector("option[selected]")?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}}customElements.define("starlight-lang-select",s);</script> </div> </div> </header> <nav class="sidebar print:hidden astro-vrdttmbt" aria-label="메인"> <starlight-menu-button class="print:hidden astro-jif73yzw"> <button aria-expanded="false" aria-label="메뉴" aria-controls="starlight__sidebar" class="sl-flex md:sl-hidden astro-jif73yzw"> <svg aria-hidden="true" class="open-menu astro-jif73yzw astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg> <svg aria-hidden="true" class="close-menu astro-jif73yzw astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg> </button> </starlight-menu-button> <script type="module">class s extends HTMLElement{constructor(){super(),this.btn=this.querySelector("button"),this.btn.addEventListener("click",()=>this.toggleExpanded());const t=this.closest("nav");t&&t.addEventListener("keyup",e=>this.closeOnEscape(e))}setExpanded(t){this.setAttribute("aria-expanded",String(t)),document.body.toggleAttribute("data-mobile-menu-expanded",t)}toggleExpanded(){this.setExpanded(this.getAttribute("aria-expanded")!=="true")}closeOnEscape(t){t.code==="Escape"&&(this.setExpanded(!1),this.btn.focus())}}customElements.define("starlight-menu-button",s);</script>   <div id="starlight__sidebar" class="sidebar-pane astro-vrdttmbt"> <div class="sidebar-content sl-flex astro-vrdttmbt"> <sl-sidebar-state-persist data-hash="13cm7n5" class="astro-kku4brbg"> <script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script>  <ul class="top-level astro-3ii7xxms"> <li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <sl-sidebar-restore data-index="0"></sl-sidebar-restore> <summary class="astro-3ii7xxms"> <div class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">Part 1. 1부 — 에듀플로 시작하기 (초심자)</span>  </div> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/eduflow-teacher-intro/chapter01/" aria-current="page" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">에듀플로는 어떤 플랫폼인가요? — 첫 만남 (1차시)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/eduflow-teacher-intro/chapter02/" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">직접 해봅시다 — 첫 프로젝트 생성부터 배포까지 (2차시)</span>  </a> </li> </ul>  </details> </li><li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <sl-sidebar-restore data-index="1"></sl-sidebar-restore> <summary class="astro-3ii7xxms"> <div class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">Part 2. 2부 — 에듀플로 잘 만들기 (숙련)</span>  </div> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/eduflow-teacher-intro/chapter03/" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">프롬프트와 템플릿 — 교재의 질을 결정하는 두 레버 (3차시)</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/eduflow-teacher-intro/chapter04/" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">검토·공유·확장 — 좋은 교재를 더 좋게 만드는 방법 (4차시)</span>  </a> </li> </ul>  </details> </li> </ul>   <script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script> </sl-sidebar-state-persist>  <div class="md:sl-hidden"> <div class="mobile-preferences sl-flex astro-wu23bvmt"> <div class="social-icons astro-wu23bvmt">  </div> <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">테마 선택</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg> <select value="auto" autocomplete="off" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">어두운 테마</option><option value="light" class="astro-4yphtoen">밝은 테마</option><option value="auto" selected class="astro-4yphtoen">자동</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label>  </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script>   </div>  </div> </div> </div> </nav> <div class="main-frame astro-vrdttmbt">  <script type="module">const a=document.getElementById("starlight__sidebar"),n=a?.querySelector("sl-sidebar-state-persist"),o="sl-sidebar-state",i=()=>{let t=[];const e=n?.dataset.hash||"";try{const s=sessionStorage.getItem(o),r=JSON.parse(s||"{}");Array.isArray(r.open)&&r.hash===e&&(t=r.open)}catch{}return{hash:e,open:t,scroll:a?.scrollTop||0}},c=t=>{try{sessionStorage.setItem(o,JSON.stringify(t))}catch{}},d=()=>c(i()),l=(t,e)=>{const s=i();s.open[e]=t,c(s)};n?.addEventListener("click",t=>{if(!(t.target instanceof Element))return;const e=t.target.closest("summary")?.closest("details");if(!e)return;const s=e.querySelector("sl-sidebar-restore"),r=parseInt(s?.dataset.index||"");isNaN(r)||l(!e.open,r)});addEventListener("visibilitychange",()=>{document.visibilityState==="hidden"&&d()});addEventListener("pageHide",d);</script> <div class="lg:sl-flex astro-67yu43on"> <aside class="right-sidebar-container print:hidden astro-67yu43on"> <div class="right-sidebar astro-67yu43on"> <script type="module" src="/eduflow-teacher-intro/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C181hMzK.js"></script><script type="module" src="/eduflow-teacher-intro/_astro/TableOfContents.astro_astro_type_script_index_0_lang.CKWWgpjV.js"></script><div class="lg:sl-hidden astro-pb3aqygn"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-doynk5tl"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-doynk5tl"><details id="starlight__mobile-toc" class="astro-doynk5tl"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-doynk5tl"><div class="toggle sl-flex astro-doynk5tl">목차<svg aria-hidden="true" class="caret astro-doynk5tl astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></div><span class="display-current astro-doynk5tl"></span></summary><div class="dropdown astro-doynk5tl"><ul class="isMobile astro-g2bywc46" style="--depth: 0;"> <li class="astro-g2bywc46" style="--depth: 0;"> <a href="#_top" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">개요</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-이-장에서-배우는-것" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">🎯 이 장에서 배우는 것</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-왜-이걸-배우나요" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">💬 왜 이걸 배우나요?</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-핵심-개념" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">📚 핵심 개념</span> </a> <ul class="isMobile astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#개념-1-에듀플로는-교재-공장입니다" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">개념 1: 에듀플로는 “교재 공장”입니다</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#개념-2-5단계-흐름--step-1에서-step-5까지" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">개념 2: 5단계 흐름 — Step 1에서 Step 5까지</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-chatgpt랑-뭐가-달라요" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">🆚 ChatGPT랑 뭐가 달라요?</span> </a> <ul class="isMobile astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#범용-ai로-교재-만들-때의-한계-3가지" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">범용 AI로 교재 만들 때의 한계 3가지</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#에듀플로는-어떻게-해결하나요" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">에듀플로는 어떻게 해결하나요?</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-따라하기--활동" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">🔨 따라하기 / 활동</span> </a> <ul class="isMobile astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#step-1-에듀플로-교재-사이트-둘러보기-15분" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Step 1: 에듀플로 교재 사이트 둘러보기 (15분)</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#step-2-나의-교재-주제-한-줄-적기-10분" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Step 2: 나의 교재 주제 한 줄 적기 (10분)</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#step-3-2차시-준비물-체크-5분" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Step 3: 2차시 준비물 체크 (5분)</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#️-주의할-점" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">⚠️ 주의할 점</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-점검하기" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">✅ 점검하기</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-다음-장-미리보기" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">🔗 다음 장 미리보기</span> </a>  </li> </ul> </div></details></nav></mobile-starlight-toc></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-pb3aqygn"><div class="sl-container astro-pb3aqygn"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">목차</h2><ul class="astro-g2bywc46" style="--depth: 0;"> <li class="astro-g2bywc46" style="--depth: 0;"> <a href="#_top" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">개요</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-이-장에서-배우는-것" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">🎯 이 장에서 배우는 것</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-왜-이걸-배우나요" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">💬 왜 이걸 배우나요?</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-핵심-개념" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">📚 핵심 개념</span> </a> <ul class="astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#개념-1-에듀플로는-교재-공장입니다" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">개념 1: 에듀플로는 “교재 공장”입니다</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#개념-2-5단계-흐름--step-1에서-step-5까지" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">개념 2: 5단계 흐름 — Step 1에서 Step 5까지</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-chatgpt랑-뭐가-달라요" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">🆚 ChatGPT랑 뭐가 달라요?</span> </a> <ul class="astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#범용-ai로-교재-만들-때의-한계-3가지" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">범용 AI로 교재 만들 때의 한계 3가지</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#에듀플로는-어떻게-해결하나요" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">에듀플로는 어떻게 해결하나요?</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-따라하기--활동" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">🔨 따라하기 / 활동</span> </a> <ul class="astro-g2bywc46" style="--depth: 1;"> <li class="astro-g2bywc46" style="--depth: 1;"> <a href="#step-1-에듀플로-교재-사이트-둘러보기-15분" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Step 1: 에듀플로 교재 사이트 둘러보기 (15분)</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#step-2-나의-교재-주제-한-줄-적기-10분" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Step 2: 나의 교재 주제 한 줄 적기 (10분)</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 1;"> <a href="#step-3-2차시-준비물-체크-5분" class="astro-g2bywc46" style="--depth: 1;"> <span class="astro-g2bywc46" style="--depth: 1;">Step 3: 2차시 준비물 체크 (5분)</span> </a>  </li> </ul>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#️-주의할-점" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">⚠️ 주의할 점</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-점검하기" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">✅ 점검하기</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#-다음-장-미리보기" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">🔗 다음 장 미리보기</span> </a>  </li> </ul> </nav></starlight-toc></div></div> </div> </aside> <div class="main-pane astro-67yu43on">  <main data-pagefind-body class="astro-bguv2lll" lang="ko" dir="ltr">    <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <h1 id="_top" class="astro-j6tvhyss">에듀플로는 어떤 플랫폼인가요? — 첫 만남 (1차시)</h1>  </div> </div>  <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <div class="sl-markdown-content"> <blockquote>
+<p><strong>1차시 (50분) · 1부 에듀플로 시작하기</strong></p>
+</blockquote>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-이-장에서-배우는-것">🎯 이 장에서 배우는 것</h2><a class="sl-anchor-link" href="#-이-장에서-배우는-것"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “🎯 이 장에서 배우는 것”</span></a></div>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 에듀플로가 무엇을 만들어 주는 도구인지 한 문장으로 설명할 수 있다</li>
+<li class="task-list-item"><input type="checkbox" disabled> 교사용 교재 생성 5단계(Step 1-5)의 흐름을 이해한다</li>
+<li class="task-list-item"><input type="checkbox" disabled> ChatGPT 같은 범용 AI와 에듀플로의 차이를 구별할 수 있다</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-왜-이걸-배우나요">💬 왜 이걸 배우나요?</h2><a class="sl-anchor-link" href="#-왜-이걸-배우나요"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “💬 왜 이걸 배우나요?”</span></a></div>
+<p>선생님께 먼저 한 가지 여쭤볼게요.</p>
+<p><strong>“교재 한 챕터를 만드는 데, 보통 몇 시간 걸리셨나요?”</strong></p>
+<p>아마 2-3시간은 기본일 겁니다. 자료 찾고, 학습목표 쓰고, 예시 짜고, 활동지 만들고, PDF로 뽑고, 학생들에게 공유까지. 반나절이 훌쩍 갑니다.</p>
+<p>에듀플로는 이 과정을 <strong>“대화 5번으로 교재 사이트 한 권”</strong> 으로 줄여주는 도구입니다. 지금 선생님이 읽고 계신 <strong>이 자료도 에듀플로로 만들어졌습니다.</strong> 연수가 끝날 무렵, 선생님도 본인 교과의 교재 한 권을 만들어 가시게 됩니다.</p>
+<p>이 차시의 목표는 단순합니다. <strong>“에듀플로가 뭐 하는 도구인지”</strong> 감을 잡는 것. 실습은 2차시부터 시작합니다. 오늘은 편하게 둘러보세요.</p>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-핵심-개념">📚 핵심 개념</h2><a class="sl-anchor-link" href="#-핵심-개념"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “📚 핵심 개념”</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="개념-1-에듀플로는-교재-공장입니다">개념 1: 에듀플로는 “교재 공장”입니다</h3><a class="sl-anchor-link" href="#개념-1-에듀플로는-교재-공장입니다"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “개념 1: 에듀플로는 “교재 공장”입니다”</span></a></div>
+<p>에듀플로는 마치 <strong>자동화된 제빵소</strong>와 같습니다. 선생님이 “초코 식빵, 2kg, 당도 낮게”라고 주문하면, 반죽부터 굽기까지 알아서 해서 완제품 빵을 내주는 곳. 선생님은 재료를 직접 계량하지도, 오븐 온도를 맞추지도 않습니다. <strong>“어떤 빵을 원하는지”만 말하면 됩니다.</strong></p>
+<p><strong>정의하자면:</strong></p>
+<blockquote>
+<p>에듀플로는 선생님이 <strong>교재의 방향과 대상</strong>을 대화로 알려주면, AI가 <strong>목차 → 각 챕터 본문 → 배포 가능한 웹사이트</strong>까지 자동으로 만들어 주는 교육자료 생성 플랫폼입니다.</p>
+</blockquote>
+<p>결과물은 PDF 한 장이 아니라, <strong>학생들이 링크로 접속해서 읽는 교재 사이트</strong>입니다. 체크박스, 접기/펼치기 정답, 다이어그램이 살아있는 형태로요.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="개념-2-5단계-흐름--step-1에서-step-5까지">개념 2: 5단계 흐름 — Step 1에서 Step 5까지</h3><a class="sl-anchor-link" href="#개념-2-5단계-흐름--step-1에서-step-5까지"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “개념 2: 5단계 흐름 — Step 1에서 Step 5까지”</span></a></div>
+<p>에듀플로의 전체 과정은 5단계로 정해져 있습니다. 선생님이 외울 필요는 없지만, 흐름을 알면 “지금 내가 어디쯤 와 있는지” 감이 잡힙니다.</p>
+<pre class="mermaid">flowchart LR
+    A[Step 1&#x3C;br/>방향 논의] --> B[Step 2&#x3C;br/>목차 제안]
+    B --> C[Step 3&#x3C;br/>목차 확정]
+    C --> D[Step 4&#x3C;br/>챕터 생성]
+    D --> E[Step 5&#x3C;br/>배포]
+    
+    style A fill:#E3F2FD,stroke:#1976D2
+    style B fill:#E8F5E9,stroke:#388E3C
+    style C fill:#FFF3E0,stroke:#F57C00
+    style D fill:#F3E5F5,stroke:#7B1FA2
+    style E fill:#FFEBEE,stroke:#C62828
+</pre>
+<p>각 단계가 만들어 내는 결과물은 다음과 같습니다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>단계</th><th>하는 일</th><th>결과물</th></tr></thead><tbody><tr><td><strong>Step 1. 방향 논의</strong></td><td>”누구에게, 왜, 어떤 톤으로?”를 대화로 정함</td><td>교재 기획서 초안</td></tr><tr><td><strong>Step 2. 목차 제안</strong></td><td>AI가 차시별 목차를 자동 생성</td><td>챕터 리스트</td></tr><tr><td><strong>Step 3. 목차 확정</strong></td><td>선생님이 수정·삭제·추가</td><td>최종 목차</td></tr><tr><td><strong>Step 4. 챕터 생성</strong></td><td>각 챕터 본문을 한 번에 작성</td><td>완성된 교재 원고</td></tr><tr><td><strong>Step 5. 배포</strong></td><td>웹사이트로 게시, 링크 공유</td><td>학생 접속용 URL</td></tr></tbody></table>
+<p>핵심은 <strong>Step 1-3은 “설계”</strong>, <strong>Step 4는 “제작”</strong>, <strong>Step 5는 “납품”</strong> 이라는 점입니다. 설계에 시간을 들일수록 제작 결과물이 좋아집니다.</p>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-chatgpt랑-뭐가-달라요">🆚 ChatGPT랑 뭐가 달라요?</h2><a class="sl-anchor-link" href="#-chatgpt랑-뭐가-달라요"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “🆚 ChatGPT랑 뭐가 달라요?”</span></a></div>
+<p>가장 많이 받는 질문입니다. “그냥 ChatGPT에 시키면 되는 거 아닌가요?”</p>
+<p>결론부터 말씀드리면 — <strong>할 수는 있지만, 현실에서는 잘 안 됩니다.</strong> 이유는 세 가지입니다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="범용-ai로-교재-만들-때의-한계-3가지">범용 AI로 교재 만들 때의 한계 3가지</h3><a class="sl-anchor-link" href="#범용-ai로-교재-만들-때의-한계-3가지"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “범용 AI로 교재 만들 때의 한계 3가지”</span></a></div>
+<p><strong>① 기억 소실</strong>
+ChatGPT로 10개 챕터짜리 교재를 만든다고 해봅시다. 1-3장까지는 잘 씁니다. 그런데 7장쯤 가면 “앞에서 정의한 용어”를 잊어버립니다. 1장에서 ‘노드’라고 부르던 걸 7장에서 ‘블록’이라고 부르는 식입니다.</p>
+<p><strong>② 템플릿 불일치</strong>
+1장은 학습목표·예시·정리 순서인데, 5장은 갑자기 정리부터 나옵니다. 매 챕터 “똑같은 형식으로 써줘”라고 지시해도, 미묘하게 어긋납니다. 결국 선생님이 일일이 손봐야 합니다.</p>
+<p><strong>③ 배포 공백</strong>
+ChatGPT는 텍스트만 뱉습니다. 학생에게 공유하려면 — 워드에 붙여넣기 → 서식 정리 → PDF로 내보내기 → 학급 클래스룸 업로드. 이 과정이 챕터마다 반복됩니다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="에듀플로는-어떻게-해결하나요">에듀플로는 어떻게 해결하나요?</h3><a class="sl-anchor-link" href="#에듀플로는-어떻게-해결하나요"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “에듀플로는 어떻게 해결하나요?”</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>문제</th><th>ChatGPT</th><th>에듀플로</th></tr></thead><tbody><tr><td><strong>기억 소실</strong></td><td>대화가 길어지면 앞 내용을 잊음</td><td>교재 전체 컨텍스트를 고정·공유</td></tr><tr><td><strong>템플릿 불일치</strong></td><td>매번 다른 형식으로 출력</td><td>챕터 템플릿이 강제 적용됨</td></tr><tr><td><strong>배포 공백</strong></td><td>텍스트만 → 수동 가공 필요</td><td>웹사이트 URL로 즉시 배포</td></tr></tbody></table>
+<p>간단히 말하면, ChatGPT가 <strong>“만능 일꾼”</strong> 이라면 에듀플로는 <strong>“교재 전문 공장”</strong> 입니다. 할 줄 아는 건 적지만, 그 한 가지를 아주 잘합니다.</p>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-따라하기--활동">🔨 따라하기 / 활동</h2><a class="sl-anchor-link" href="#-따라하기--활동"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “🔨 따라하기 / 활동”</span></a></div>
+<p>오늘은 ‘둘러보기’ 차시입니다. 클릭·타이핑보다 <strong>눈과 머리로 익히는</strong> 활동 위주입니다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="step-1-에듀플로-교재-사이트-둘러보기-15분">Step 1: 에듀플로 교재 사이트 둘러보기 (15분)</h3><a class="sl-anchor-link" href="#step-1-에듀플로-교재-사이트-둘러보기-15분"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “Step 1: 에듀플로 교재 사이트 둘러보기 (15분)”</span></a></div>
+<p><strong>이 활동의 의도:</strong> 완성된 결과물을 먼저 봄으로써 “내가 만들게 될 것”의 이미지를 선명하게 합니다.</p>
+<p>지금 읽고 계신 <strong>이 자료 자체</strong>가 에듀플로 결과물입니다. 아래 요소들이 어디에 있는지 찾아보세요.</p>
+<p><strong>🔍 찾아보기 체크리스트</strong></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> 챕터 제목 바로 아래 <strong>학습 시간 표시</strong> (예: “1차시 50분”)</li>
+<li class="task-list-item"><input type="checkbox" disabled> <code dir="auto">🎯 이 장에서 배우는 것</code> 박스의 <strong>체크박스 학습목표</strong></li>
+<li class="task-list-item"><input type="checkbox" disabled> <code dir="auto">📚 핵심 개념</code> 안의 <strong>비유 → 정의 → 예시</strong> 3단 구성</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>Mermaid 다이어그램</strong>(Step 1-5 흐름도)</li>
+<li class="task-list-item"><input type="checkbox" disabled> <strong>비교 표</strong>(ChatGPT vs 에듀플로)</li>
+<li class="task-list-item"><input type="checkbox" disabled> 챕터 끝의 <strong>점검 문제 + 접힌 정답</strong></li>
+</ul>
+<p>6개를 모두 찾으셨다면, 에듀플로의 “기본 템플릿”을 파악하신 겁니다. 선생님이 만들 교재도 이런 골격으로 나옵니다.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="step-2-나의-교재-주제-한-줄-적기-10분">Step 2: 나의 교재 주제 한 줄 적기 (10분)</h3><a class="sl-anchor-link" href="#step-2-나의-교재-주제-한-줄-적기-10분"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “Step 2: 나의 교재 주제 한 줄 적기 (10분)”</span></a></div>
+<p><strong>이 활동의 의도:</strong> 2차시부터 실습에 쓸 ‘나의 주제’를 미리 정해두면, 실습 시간이 훨씬 풍성해집니다.</p>
+<p><strong>활동지: 내 교과에서 만들고 싶은 교재 한 줄 기획서</strong></p>
+<p>아래 문장을 채워보세요. 완벽할 필요 없습니다. 2차시에서 수정할 수 있습니다.</p>
+<blockquote>
+<p><strong>“저는 _____학년 _____과 학생들을 위해,
+_____에 대한 교재를 만들고 싶습니다.
+이 교재를 읽고 나면 학생들이 _____를 할 수 있으면 좋겠습니다.”</strong></p>
+</blockquote>
+<p><strong>작성 예시 (정보 교과):</strong></p>
+<blockquote>
+<p>“저는 중학교 2학년 정보 학생들을 위해, <strong>스크래치로 게임 만들기</strong> 교재를 만들고 싶습니다. 이 교재를 읽고 나면 학생들이 <strong>간단한 피하기 게임을 스스로 설계·구현</strong>할 수 있으면 좋겠습니다.”</p>
+</blockquote>
+<p><strong>작성 예시 (일반 교과):</strong></p>
+<blockquote>
+<p>“저는 고등학교 1학년 국어 학생들을 위해, <strong>현대시 감상법</strong> 교재를 만들고 싶습니다. 이 교재를 읽고 나면 학생들이 <strong>시의 화자·정서·주제를 스스로 분석</strong>할 수 있으면 좋겠습니다.”</p>
+</blockquote>
+<div class="sl-heading-wrapper level-h3"><h3 id="step-3-2차시-준비물-체크-5분">Step 3: 2차시 준비물 체크 (5분)</h3><a class="sl-anchor-link" href="#step-3-2차시-준비물-체크-5분"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “Step 3: 2차시 준비물 체크 (5분)”</span></a></div>
+<p><strong>이 활동의 의도:</strong> 다음 차시에서 환경 문제로 시간 낭비하지 않도록 미리 점검합니다.</p>
+<p><strong>✅ 2차시 전까지 준비해 주세요</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>항목</th><th>확인 방법</th></tr></thead><tbody><tr><td><strong>Google 계정</strong></td><td>Gmail 로그인 되는지 확인 (학교 계정 권장)</td></tr><tr><td><strong>크롬 브라우저</strong></td><td>최신 버전 업데이트 상태</td></tr><tr><td><strong>교재 주제 한 줄</strong></td><td>위 Step 2에서 작성한 문장</td></tr><tr><td><strong>관리자 승인</strong></td><td>연수 담당자에게 Gmail 주소 전달 완료</td></tr></tbody></table>
+<blockquote>
+<p>💡 <strong>관리자 승인이 뭔가요?</strong> 에듀플로는 교사 대상 플랫폼이라, 가입 후 관리자가 교사 여부를 확인하고 승인해 드립니다. 연수 담당 선생님께 미리 Gmail 주소를 알려두시면, 2차시 시작 시점에 이미 승인되어 있습니다.</p>
+</blockquote>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="️-주의할-점">⚠️ 주의할 점</h2><a class="sl-anchor-link" href="#️-주의할-점"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “⚠️ 주의할 점”</span></a></div>
+<p><strong>1. 에듀플로는 “교재용” 도구입니다.</strong>
+시험지 출제, 학생 개별 피드백, 학부모 알림 같은 업무는 지원하지 않습니다. “수업에서 함께 읽을 자료”를 만드는 데 특화되어 있습니다.</p>
+<p><strong>2. Step 1(방향 논의)을 대충 넘기지 마세요.</strong>
+“누구에게, 왜, 어떤 톤으로”를 흐릿하게 답하면 최종 교재도 흐릿하게 나옵니다. 빵 주문할 때 “그냥 빵 주세요”라고 하면 원하는 빵이 안 나오는 것과 같습니다. Step 1에서 5분 더 쓰면 Step 4 결과물이 2배 좋아집니다.</p>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-점검하기">✅ 점검하기</h2><a class="sl-anchor-link" href="#-점검하기"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “✅ 점검하기”</span></a></div>
+<p><strong>1. 에듀플로를 한 문장으로 설명한다면?</strong></p>
+<details><summary>정답 확인</summary>
+<p>“선생님이 교재의 방향을 대화로 알려주면, AI가 목차부터 웹사이트 배포까지 자동으로 만들어 주는 교육자료 생성 플랫폼”</p>
+<p>핵심 키워드: ① 대화 기반 ② 목차→본문→배포 자동화 ③ 교재 특화</p>
+</details>
+<p><strong>2. 다음 중 에듀플로의 5단계 순서로 올바른 것은?</strong></p>
+<p>① 목차 제안 → 방향 논의 → 챕터 생성 → 목차 확정 → 배포
+② 방향 논의 → 목차 제안 → 목차 확정 → 챕터 생성 → 배포
+③ 방향 논의 → 챕터 생성 → 목차 제안 → 목차 확정 → 배포
+④ 목차 확정 → 방향 논의 → 목차 제안 → 챕터 생성 → 배포</p>
+<details><summary>정답 확인</summary>
+<p><strong>② 방향 논의 → 목차 제안 → 목차 확정 → 챕터 생성 → 배포</strong></p>
+<p>“설계(1-3) → 제작(4) → 납품(5)“의 흐름입니다. 설계가 먼저, 제작이 다음, 배포가 마지막입니다.</p>
+</details>
+<p><strong>3. ChatGPT로 교재를 만들 때 에듀플로 대비 불편한 점 세 가지는?</strong></p>
+<details><summary>정답 확인</summary>
+<p>① <strong>기억 소실</strong> — 대화가 길어지면 앞 챕터 내용·용어를 잊음
+② <strong>템플릿 불일치</strong> — 매 챕터 형식이 미묘하게 달라져 직접 손봐야 함
+③ <strong>배포 공백</strong> — 텍스트만 나와서, 학생 배포까지 수동 작업 필요</p>
+<p>에듀플로는 이 세 가지를 각각 컨텍스트 고정, 템플릿 강제, 웹사이트 자동 배포로 해결합니다.</p>
+</details>
+<p><strong>4. (서술형) 선생님의 교과에서 에듀플로로 만들고 싶은 교재를 한 문장으로 적어보세요.</strong></p>
+<details><summary>작성 가이드</summary>
+<p>정답은 없습니다. 다만 아래 3요소가 들어가면 좋은 기획서입니다.</p>
+<ul>
+<li><strong>대상</strong>: 누구에게? (예: 중2 정보)</li>
+<li><strong>주제</strong>: 무엇을? (예: 스크래치 게임 만들기)</li>
+<li><strong>도달 목표</strong>: 읽고 나면 뭘 할 수 있어야? (예: 피하기 게임 구현)</li>
+</ul>
+<p>이 문장이 2차시 실습의 출발점이 됩니다. 너무 넓으면(예: “프로그래밍 전체”) AI가 방향을 못 잡고, 너무 좁으면(예: “if문 한 개 쓰기”) 한 챕터도 안 나옵니다. <strong>“10차시 수업 분량”</strong> 정도가 적당합니다.</p>
+</details>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-다음-장-미리보기">🔗 다음 장 미리보기</h2><a class="sl-anchor-link" href="#-다음-장-미리보기"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">섹션 제목: “🔗 다음 장 미리보기”</span></a></div>
+<p>2차시에서는 드디어 <strong>직접 에듀플로에 접속</strong>합니다.</p>
+<ul>
+<li>Google 로그인 → 관리자 승인 확인</li>
+<li>새 교재 만들기 버튼 클릭</li>
+<li><strong>Step 1 대화 시작</strong> — 오늘 적은 “한 줄 기획서”를 AI에게 들려주기</li>
+</ul>
+<p>오늘 작성한 <strong>“내 교과 교재 한 줄 기획서”</strong> 를 꼭 들고 오세요. 그 한 줄이 2차시 실습의 씨앗이 됩니다. 🌱</p>
+<p>수고하셨습니다. 1차시 끝!</p> </div> <footer class="sl-flex astro-3yyafb3n"> <div class="meta sl-flex astro-3yyafb3n">   </div> <div class="pagination-links print:hidden astro-u2l5gyhi" dir="ltr">  <a href="/eduflow-teacher-intro/chapter02/" rel="next" class="astro-u2l5gyhi"> <svg aria-hidden="true" class="astro-u2l5gyhi astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg> <span class="astro-u2l5gyhi"> 다음 페이지 <br class="astro-u2l5gyhi"> <span class="link-title astro-u2l5gyhi">직접 해봅시다 — 첫 프로젝트 생성부터 배포까지 (2차시)</span> </span> </a> </div>   </footer>  </div> </div>   </main> </div> </div>  </div> </div>  </body></html>
